@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto:wght@300&display=swap');
+
+html { width: 100%; height:100%; overflow:hidden; }
+
+body { 
+	width: 100%;
+	height:100%;
+	font-family: 'Roboto', sans-serif;
+	background: #095616;
+	color: #fff;
+	font-size: 18px;
+	text-align:center;
+	letter-spacing:1.2px;
+	background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%),-moz-linear-gradient(top,  rgba(57,173,219,.25) 0%, rgba(42,60,87,.4) 100%), -moz-linear-gradient(-45deg,  #670d10 0%, #092756 100%);
+	background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -webkit-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -webkit-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -o-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -o-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -o-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), -ms-linear-gradient(top,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), -ms-linear-gradient(-45deg,  #670d10 0%,#092756 100%);
+	background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(104,128,138,.4) 10%,rgba(138,114,76,0) 40%), linear-gradient(to bottom,  rgba(57,173,219,.25) 0%,rgba(42,60,87,.4) 100%), linear-gradient(135deg,  #670d10 0%,#092756 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 );
+
+}
+
+nav {
+	background-color: #ffffff;
+	font-size: 30px;
+	padding-left: 5rem;
+	padding-top: 3px;
+	width: 100%;
+  }
+
+input { 
+	width: 100%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+
+input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); 
+}
+
+/* From cssbuttons.io by @adamgiebl */
+button {
+	--green: #1BFD9C;
+	font-size: 15px;
+	padding: 0.7em 2.7em;
+	letter-spacing: 0.06em;
+	position: relative;
+	font-family: inherit;
+	border-radius: 0.6em;
+	overflow: hidden;
+	transition: all 0.3s;
+	line-height: 1.4em;
+	border: 2px solid var(--green);
+	background: linear-gradient(to right, rgba(27, 253, 156, 0.1) 1%, transparent 40%,transparent 60% , rgba(27, 253, 156, 0.1) 100%);
+	color: var(--green);
+	box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.4), 0 0 9px 3px rgba(27, 253, 156, 0.1);
+}
+   
+button:hover {
+	color: #82ffc9;
+	box-shadow: inset 0 0 10px rgba(27, 253, 156, 0.6), 0 0 9px 3px rgba(27, 253, 156, 0.2);
+}
+   
+button:before {
+	content: "";
+	position: absolute;
+	left: -4em;
+	width: 4em;
+	height: 100%;
+	top: 0;
+	transition: transform .4s ease-in-out;
+	background: linear-gradient(to right, transparent 1%, rgba(27, 253, 156, 0.1) 40%,rgba(27, 253, 156, 0.1) 60% , transparent 100%);
+}
+   
+button:hover:before {
+	transform: translateX(15em);
+}
+
+.content{
+	cursor: url(/images/glitchMouse.png), auto;
+}
+
